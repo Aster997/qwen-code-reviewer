@@ -95,8 +95,8 @@ cutoff_len: 1024      # DPO 数据短（150-600字），不会截断
 
 **DPO 训练曲线：**
 
-| Training Loss | Eval Loss | Rewards Accuracies |
-|:---:|:---:|:---:|
+| Training Loss  | Rewards Accuracies |
+|:---:|:---:|
 | ![DPO Training Loss](assets/results/training_loss_dpo_pro.png) | ![DPO Rewards Accuracies](assets/results/training_rewards_accuracies.png) |
 
 DPO 最终 `rewards/accuracies = 86.4%`，`rewards/margins` 持续正增长，训练收敛良好。
